@@ -57,9 +57,6 @@ function App() {
   return (
     <div className="App">
       <Suspense fallback={<div>...Loading</div>}>
-        {/* <HashRouter basename="/">
-          <Navigation listElements={listElements} />
-        </HashRouter> */}
         <Router>
           <div>
             <div className="Navigation">
