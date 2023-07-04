@@ -1,0 +1,62 @@
+@import "../../colors.scss";
+
+.About {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    &__img {
+        & > img {
+            width: 28rem;
+        }
+    }
+    &__content {
+        padding-left: 10rem;
+        $colorChange: white;
+        color: $colorText;
+        & > h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            line-height: 1.25;
+        }
+        & > p {
+            line-height: 1.5;
+            font-size: 1.3rem;
+            font-weight: 400;
+        }
+        & > img {
+            margin-top: 2rem;
+            width: 35%;
+        }
+        &-list {
+            position: relative;
+            top: 2rem;
+
+            display: flex;
+            justify-content: space-around;
+
+            list-style: none;
+            text-align: center;
+            text-transform: capitalize;
+            padding-left: 0;
+
+            &--link {
+                position: relative;
+                top: 0.5rem;
+
+                display: block;
+                text-decoration: none;
+                font-size: 1.2rem;
+                color: $colorText;
+                transition: all 0.4s ease-in-out 0s;
+                &:hover {
+                    color: $ColorHL;
+                    position: relative;
+                    top: 0rem;
+                    transition: all 0.3s ease-in-out 0s;
+                }
+            }
+        }
+    }
+}

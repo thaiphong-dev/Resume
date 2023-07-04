@@ -1,0 +1,61 @@
+$colorText: rgb(104, 6, 6);
+$colorBtn: rgb(236, 116, 116);
+.contact {
+    text-align: center;
+    width: 50%;
+    height: 32rem;
+    // background-color: #fff;
+    margin: 5rem auto;
+    border: 1rem solid #6d6f71;
+    h1 {
+        font-weight: 400;
+        font-size: 3rem;
+        color: $colorText;
+    }
+    &__form {
+        &--input {
+            width: 70%;
+            margin: 1.5rem 0;
+            padding-left: 1rem;
+            background-color: #f1f1f1;
+            line-height: 200%;
+            border: 0.125rem solid #fff;
+
+            font-family: "Courgette", cursive;
+
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 3rem;
+        }
+        &--textArea {
+            width: 70%;
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            font-size: 1.3rem;
+            background-color: #f1f1f1;
+            line-height: 200%;
+            border: 0.125rem solid #fff;
+
+            font-family: "Courgette", cursive;
+
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 3rem;
+        }
+        &--button {
+            width: 73%;
+            height: 2.5rem;
+            background-color: rgb(71, 17, 17);
+            font-family: "Courgette", cursive;
+
+            color: #fff;
+            font-size: 1.2rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1.5rem;
+            cursor: pointer;
+            &:hover {
+                background-color: rgb(104, 6, 6);
+            }
+        }
+    }
+}

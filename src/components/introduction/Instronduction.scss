@@ -1,0 +1,75 @@
+@import "../../colors.scss";
+
+.Introduction {
+    position: relative;
+    color: $colorText;
+
+    margin-top: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    &__information {
+        &--img {
+            width: auto;
+            & > img {
+                width: 25%;
+                border-radius: 50%;
+                justify-content: center;
+                transition: all 0.4s ease 0s;
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(0.8) rotate(-16deg);
+                }
+            }
+        }
+        &--skill {
+            letter-spacing: 1ps;
+            font-size: 1.2rem;
+        }
+        &--title {
+            font-size: 3rem;
+        }
+        & > a {
+            text-decoration: none;
+        }
+
+        &--btn {
+            position: relative;
+            top: 1rem;
+            text-decoration: none;
+
+            margin: 0 auto;
+            background-color: $colorBtn;
+
+            height: 3rem;
+            width: 11rem;
+            border-radius: 1rem;
+            transition: all 0.3s ease-in-out 0s;
+
+            display: flex;
+            justify-content: space-around;
+            & > p {
+                display: block;
+                width: 5rem;
+                display: inline;
+                text-decoration: none;
+                font-family: "Courgette", cursive;
+            }
+            & > svg {
+                display: block;
+                width: 2rem;
+                height: 2.5rem;
+                text-align: center;
+                font-weight: 300;
+            }
+            &:hover {
+                position: relative;
+                top: 0rem;
+                transition: all 0.4s;
+                cursor: pointer;
+            }
+        }
+    }
+}
