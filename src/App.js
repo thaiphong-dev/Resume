@@ -5,13 +5,11 @@ import {
   Route,
   Link,
   Navigate,
-  HashRouter,
 } from "react-router-dom";
 import "./App.scss";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Introduction from "./components/introduction/Introduction";
-import Navigation from "./components/navigation";
 import Portfolio from "./components/Portfolio";
 import anhbg from "./images/bg4.jpg";
 import anhbg1 from "./images/bg1.jpg";
